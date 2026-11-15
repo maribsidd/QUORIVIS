@@ -4,7 +4,6 @@ Two decades of India's fires, on one consistent scale.
 
 Satellites have recorded active fires since 2002, but the older MODIS sensor and the newer VIIRS sensors count fires differently, so their records cannot be compared directly. Quorivis merges them into a single monthly series for any area, shows how reliable the merge is, and compares recent months with history.
 
-Try out Yourself: https://maribsidd.github.io/QUORIVIS/
 
 ## What it does
 
@@ -15,6 +14,10 @@ Try out Yourself: https://maribsidd.github.io/QUORIVIS/
 - Download the monthly series for your area as CSV.
 
 ## Run it
+
+Link: https://maribsidd.github.io/QUORIVIS/
+
+or
 
 Open `index.html` in a browser. The data is built into the page, so nothing needs to be installed or uploaded.
 
