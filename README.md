@@ -25,14 +25,6 @@ Open `index.html` in a browser. The data is built into the page, so nothing need
 
 Detections are placed on a 0.01 degree grid and counted as cell-days, which removes the resolution advantage of VIIRS. For each area and season, VIIRS is scaled to MODIS units using calibration years, and the scaled series continues the MODIS record. See [METHOD.md](METHOD.md) for the full method, validation results and limits.
 
-## Rebuild the data
-
-`build_tiles.py` converts FIRMS Archive Download CSVs (MODIS C6.1, VIIRS S-NPP, VIIRS NOAA-20) into the compact tile data embedded in the page.
-
-```
-python build_tiles.py --modis M.csv --snpp S.csv --n20 J.csv --out tiles.json
-```
-
 Requires Python 3 with pandas and numpy.
 
 ## Data
